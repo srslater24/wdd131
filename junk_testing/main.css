@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(161, 222, 203);
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: rgb(30, 103, 167);
+    padding: 20px;
+    font-size: 20px;
+}
+nav, footer {
+    background-color: steelblue;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-decoration: none;
+    color: beige;
+}
+
+a:hover {
+    background-color: beige;
+    color: steelblue;
+}
+
+footer p {
+    color: beige;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 80%
+}
+p {
+    width: 90%;
+    margin: 25px auto;
+    line-height: 1.25em;
+}
+
+.gray {
+    background-color: rgb(182, 182, 182);
+    padding: 20px;
+    box-sizing: border-box;
+    border: 10px solid black;
+    border-radius: 20px;
+}
+#active {
+    background-color: rgb(104, 151, 189);
+    color: white
+}
+
+.link {
+    color:steelblue;
+    padding: 0;
+}
+
+#content {
+    background-color: lightblue;
+    max-width: 800px;
+    margin: 0 auto;
+}

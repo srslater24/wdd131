@@ -1,0 +1,39 @@
+#content {
+    border: 1px solid rgb(129, 129, 129);
+    margin: 20px;
+    padding: 20px;
+}
+
+#topics {
+    margin: 0 auto;
+    width: 350px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 25px;
+}
+
+body {
+    background-color: rgb(206, 206, 206);
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+    color:rgb(61, 114, 161);
+    font-size: 18px;
+}
+
+hr {
+    border-color: rgb(61, 114, 161);
+    border-width: 2px;
+    width: 80%;
+}
+
+img {
+    width: 50%;
+}
