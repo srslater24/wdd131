@@ -1,5 +1,5 @@
 const menuButton = document.querySelector('.menu-btn');
-let nav = document.querySelector('nav')
+let nav = document.querySelector('nav');
 
 function openMenu() {
     if (nav.classList.contains('hidden')) {
@@ -8,5 +8,7 @@ function openMenu() {
         nav.classList.add('hidden');
     }
 }
+// use toggle
+
 
 menuButton.addEventListener('click', openMenu);
