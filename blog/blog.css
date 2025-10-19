@@ -1,0 +1,66 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+ :root {
+ --gold-color: #EFC69B;
+ --red-color: #AF1B3F;
+ --dark-color: #473144;
+ --body-font: Helvetica,Arial,sans-serif;
+ --headline-font: Lora, Impact, serif;
+ }
+
+h1 {
+    color: var(--dark-color);
+    font-family: var(--headline-font);
+    font-size: 40px;
+    text-align: center;
+    padding: 20px, 0px;
+}
+
+nav {
+    border-top: solid 2px var(--gold-color);
+    border-bottom: solid 2px var(--gold-color);
+}
+
+nav > ul {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    justify-content: end;
+    justify-items: end;
+    list-style-type: none;
+    max-width: 800px;
+    margin: 16px auto;
+}
+
+a {
+    color: var(--red-color);
+    font-family: var(--body-font);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h2 {
+    color: var(--red-color);
+    font-family: var(--headline-font);
+}
+
+p {
+    font-family: var(--body-font);
+}
+
+.book {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+}
+
+.bookinfo {
+    justify-items: right;
+    grid-row: 1/4;
+    border-right: solid 2px var(--gold-color);
+    padding: 0px 15px;
+}
+
+.bookdesc {
+    padding: 0px 15px;
+}
+.bookdesc img {
+    justify-items: center;
+}
