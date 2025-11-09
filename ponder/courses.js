@@ -73,7 +73,7 @@ function clickHandler(event) {
   if (event.target.id === "enrollStudent")
     aCourse.enrollStudent(sectionNum);
   else
-    aCourse.dropStudent(sectionNum)
+    aCourse.dropStudent(sectionNum);
 }
 document.querySelector("#enrollStudent").addEventListener("click", clickHandler);
 document.querySelector("#dropStudent").addEventListener("click", clickHandler);
