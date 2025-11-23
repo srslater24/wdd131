@@ -14,7 +14,7 @@ body {
     font-size: 18px;
 }
 
-header {
+header > span{
     display: flex;
     justify-content: center;
     align-items: baseline;
@@ -23,8 +23,13 @@ header {
     padding: 20px 0px;
 }
 
-header > img {
+header img {
     max-width: 60px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
 }
 
 .recipe {
@@ -41,10 +46,17 @@ header > img {
 }
 
 .tags{
-    border: 1px solid black;
-    width: 80px;
-    height: 20px;
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    padding: 2px;
     text-align: center;
+    margin-bottom: 0px;
+}
+
+.tags li {
+    border: 2px solid black;
+    width: 80px;
 }
 
 .recipe_title {
