@@ -99,3 +99,24 @@ function searchList(list, query) {
     console.log(sorted);
 }
 searchList(hikes, "al");
+
+// Non-assignment learning
+
+localStorage.setItem("userName", "Scott S");
+const name = localStorage.getItem("userName");
+console.log(name);
+
+localStorage.setItem("hikes", JSON.stringify(hikes));
+const hikesFromStorage = JSON.parse(localStorage.getItem("hikes"));
+console.log(hikesFromStorage);
+
+function setLocalStorage(key, value) {
+  const valueAsString = JSON.stringify(value);
+  localStorage.setItem(key, valueAsString);
+}
+
+function getLocalStorage(key) {
+  const valueAsString = localStorage.getItem(key);
+  const value = JSON.parse(valueAsString);
+  return value
+}
